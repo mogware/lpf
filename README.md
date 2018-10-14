@@ -1,5 +1,5 @@
 # lpf
- - Lightweight C++ Plugin Framework
+ Lightweight C++ Plugin Framework
 
 ## Usage
 
@@ -52,7 +52,9 @@ extern "C" {
 }
 ```
 
-### Create application using the plugin manager interface
+### Create application
+
+Create program using the plugin manager interface
 
 ```c++
 int main()
@@ -69,4 +71,4 @@ int main()
 
 	mngr->shutdown();
 }
-```c++
+```
